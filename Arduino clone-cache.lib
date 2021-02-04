@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Abtahi's_Library_DS1337_AM
+#
+DEF Abtahi's_Library_DS1337_AM U 0 40 Y Y 1 F N
+F0 "U" 325 625 50 H V C CNN
+F1 "Abtahi's_Library_DS1337_AM" 325 525 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -425 425 425 -425 0 1 0 f
+X X1 1 -625 175 200 R 50 50 1 1 I
+X X2 2 -625 0 200 R 50 50 1 1 I
+X INTA 3 -625 -175 200 R 50 50 1 1 I I
+X GND 4 0 -625 200 U 50 50 1 1 O
+X SDA 5 625 -175 200 L 50 50 1 1 B
+X SCL 6 625 0 200 L 50 50 1 1 I
+X INTB 7 625 175 200 L 50 50 1 1 I I
+X Vcc 8 0 625 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x04
 #
 DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
