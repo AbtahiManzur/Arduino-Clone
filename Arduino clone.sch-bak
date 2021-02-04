@@ -101,21 +101,30 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 4750 3950 50 
 	1    4750 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U?
-U 1 1 601B7F08
-P 6225 3125
-F 0 "U?" H 6225 1536 50  0000 C CNN
-F 1 "ATmega328P-AU" H 6225 1445 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 6225 3125 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6225 3125 50  0001 C CNN
-	1    6225 3125
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 7500 4250 3500 2000
 U 601B8BF2
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
+U 1 1 601BDCDB
+P 6175 2925
+F 0 "U?" H 6503 3028 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 6503 2922 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 6375 3125 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6375 3225 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 6375 3325 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 6375 3425 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6375 3525 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 6375 3625 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6375 3725 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 6375 3825 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6375 3925 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6375 4025 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6375 4125 60  0001 L CNN "Status"
+	1    6175 2925
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

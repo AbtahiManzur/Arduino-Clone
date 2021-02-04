@@ -127,4 +127,26 @@ F 12 "Active" H 6375 4125 60  0001 L CNN "Status"
 	1    6175 2925
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 601C298C
+P 3475 1800
+F 0 "Y?" H 3475 2068 50  0000 C CNN
+F 1 "Crystal" H 3475 1977 50  0000 C CNN
+F 2 "" H 3475 1800 50  0001 C CNN
+F 3 "~" H 3475 1800 50  0001 C CNN
+	1    3475 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 601C36A9
+P 3975 1800
+F 0 "Y?" H 3975 2068 50  0000 C CNN
+F 1 "Crystal" H 3975 1977 50  0000 C CNN
+F 2 "" H 3975 1800 50  0001 C CNN
+F 3 "~" H 3975 1800 50  0001 C CNN
+	1    3975 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
