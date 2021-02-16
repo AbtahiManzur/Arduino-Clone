@@ -18,7 +18,7 @@ L Connector_Generic:Conn_01x09 J1
 U 1 1 601B9E92
 P 4625 4675
 F 0 "J1" H 4705 4717 50  0000 L CNN
-F 1 "Conn_01x09" H 4705 4626 50  0000 L CNN
+F 1 "Digital pins" H 4705 4626 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 4625 4675 50  0001 C CNN
 F 3 "~" H 4625 4675 50  0001 C CNN
 	1    4625 4675
@@ -29,7 +29,7 @@ L Connector_Generic:Conn_01x04 J2
 U 1 1 601BA689
 P 4650 3200
 F 0 "J2" H 4730 3192 50  0000 L CNN
-F 1 "Conn_01x04" H 4730 3101 50  0000 L CNN
+F 1 "Serial" H 4730 3101 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4650 3200 50  0001 C CNN
 F 3 "~" H 4650 3200 50  0001 C CNN
 	1    4650 3200
@@ -40,7 +40,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 601BAC99
 P 6375 4725
 F 0 "J3" H 6425 5042 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 6425 4951 50  0000 C CNN
+F 1 "ICSP" H 6425 4951 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 6375 4725 50  0001 C CNN
 F 3 "~" H 6375 4725 50  0001 C CNN
 	1    6375 4725
@@ -51,7 +51,7 @@ L Connector_Generic:Conn_01x04 J4
 U 1 1 601BB4E4
 P 6400 3225
 F 0 "J4" H 6480 3217 50  0000 L CNN
-F 1 "Conn_01x04" H 6480 3126 50  0000 L CNN
+F 1 "I2C" H 6480 3126 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6400 3225 50  0001 C CNN
 F 3 "~" H 6400 3225 50  0001 C CNN
 	1    6400 3225
