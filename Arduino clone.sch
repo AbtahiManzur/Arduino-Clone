@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L Device:R_US R1
 U 1 1 601B6694
-P 5125 3725
-F 0 "R1" H 5193 3771 50  0000 L CNN
-F 1 "330Ohm" H 5193 3680 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5165 3715 50  0001 C CNN
-F 3 "~" H 5125 3725 50  0001 C CNN
-	1    5125 3725
+P 4875 3925
+F 0 "R1" H 4943 3971 50  0000 L CNN
+F 1 "330Ohm" H 4943 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4915 3915 50  0001 C CNN
+F 3 "~" H 4875 3925 50  0001 C CNN
+	1    4875 3925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -77,26 +77,6 @@ F 1 "10KOhm" H 5543 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5515 4640 50  0001 C CNN
 F 3 "~" H 5475 4650 50  0001 C CNN
 	1    5475 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Embedded-Microcontrollers:ATMEGA328P-AU U4
-U 1 1 601BDCDB
-P 6400 3675
-F 0 "U4" H 6728 3778 60  0000 L CNN
-F 1 "ATMEGA328P-AU" H 6728 3672 60  0000 L CNN
-F 2 "digikey-footprints:TQFP-32_7x7mm" H 6600 3875 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6600 3975 60  0001 L CNN
-F 4 "ATMEGA328P-AU-ND" H 6600 4075 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATMEGA328P-AU" H 6600 4175 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6600 4275 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 6600 4375 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6600 4475 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 6600 4575 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6600 4675 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 6600 4775 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6600 4875 60  0001 L CNN "Status"
-	1    6400 3675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,18 +148,122 @@ $EndComp
 $Comp
 L Device:LED D1
 U 1 1 601B5CCB
-P 5600 3450
-F 0 "D1" H 5593 3667 50  0000 C CNN
-F 1 "LED" H 5593 3576 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 3450 50  0001 C CNN
-F 3 "~" H 5600 3450 50  0001 C CNN
-	1    5600 3450
+P 5050 3550
+F 0 "D1" H 5043 3767 50  0000 C CNN
+F 1 "LED" H 5043 3676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5050 3550 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
 	1    0    0    -1  
 $EndComp
+Text Label 4925 6325 0    50   ~ 0
+MISO
+Wire Wire Line
+	4925 6325 5350 6325
+Text Label 5900 3475 2    50   ~ 0
+MISO
+Text Label 4925 6450 0    50   ~ 0
+SCK
+Text Label 4925 6575 0    50   ~ 0
+RESET
+Text Label 4925 6700 0    50   ~ 0
+Vcc
+Text Label 4925 6825 0    50   ~ 0
+MOSI
+Text Label 4925 6950 0    50   ~ 0
+GND
+Wire Wire Line
+	4925 6450 5350 6450
+Wire Wire Line
+	4925 6575 5350 6575
+Wire Wire Line
+	4925 6700 5350 6700
+Wire Wire Line
+	4925 6825 5350 6825
+Wire Wire Line
+	4925 6950 5100 6950
+Text Label 5900 3575 2    50   ~ 0
+SCK
 $Sheet
-S 4675 6025 1800 1275
+S 5350 6100 1125 1075
 U 601B8BF2
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
+F2 "MISO" O L 5350 6325 50 
+F3 "SCK" B L 5350 6450 50 
+F4 "RESET" B L 5350 6575 50 
+F5 "Vcc" I L 5350 6700 50 
+F6 "MOSI" I L 5350 6825 50 
+F7 "GND" I L 5350 6950 50 
 $EndSheet
+Text Label 5900 3375 2    50   ~ 0
+MOSI
+Text Label 5900 4275 2    50   ~ 0
+RESET
+Wire Wire Line
+	6400 2075 6400 1900
+Wire Wire Line
+	6400 1900 6500 1900
+Wire Wire Line
+	6500 2075 6500 1900
+Wire Wire Line
+	6600 2075 6600 1900
+Wire Wire Line
+	6600 1900 6500 1900
+Connection ~ 6500 1900
+Text Label 6500 5450 0    50   ~ 0
+GND
+Text Label 6500 1800 0    50   ~ 0
+Vcc
+Wire Wire Line
+	6500 1800 6500 1900
+$Comp
+L dk_Embedded-Microcontrollers:ATMEGA328P-AU U4
+U 1 1 601BDCDB
+P 6400 3675
+F 0 "U4" H 6728 3778 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 6728 3672 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 6600 3875 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6600 3975 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 6600 4075 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 6600 4175 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6600 4275 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 6600 4375 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6600 4475 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 6600 4575 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6600 4675 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6600 4775 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6600 4875 60  0001 L CNN "Status"
+	1    6400 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5175 6400 5350
+Wire Wire Line
+	6600 5350 6600 5175
+Wire Wire Line
+	6400 5350 6500 5350
+Wire Wire Line
+	6500 5175 6500 5350
+Connection ~ 6500 5350
+Wire Wire Line
+	6500 5350 6600 5350
+Wire Wire Line
+	6500 5350 6500 5450
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 602FDDD7
+P 5100 7250
+F 0 "#PWR?" H 5100 7050 50  0001 C CNN
+F 1 "GNDPWR" H 5104 7096 50  0000 C CNN
+F 2 "" H 5100 7200 50  0001 C CNN
+F 3 "" H 5100 7200 50  0001 C CNN
+	1    5100 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 7250 5100 6950
+Connection ~ 5100 6950
+Wire Wire Line
+	5100 6950 5350 6950
 $EndSCHEMATC
