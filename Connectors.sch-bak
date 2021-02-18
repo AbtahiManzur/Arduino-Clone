@@ -59,9 +59,9 @@ F 3 "~" H 6400 3225 50  0001 C CNN
 $EndComp
 Text HLabel 6175 4625 0    50   Output ~ 0
 MISO
-Text HLabel 6175 4725 0    50   BiDi ~ 0
+Text HLabel 6175 4725 0    50   Input ~ 0
 SCK
-Text HLabel 6175 4825 0    50   BiDi ~ 0
+Text HLabel 6175 4825 0    50   Input ~ 0
 RESET
 Text HLabel 6675 4625 2    50   Input ~ 0
 Vcc
@@ -69,4 +69,72 @@ Text HLabel 6675 4725 2    50   Input ~ 0
 MOSI
 Text HLabel 6675 4825 2    50   Input ~ 0
 GND
+Text HLabel 4325 3100 0    50   Input ~ 0
+GND
+Text HLabel 4325 3200 0    50   Input ~ 0
+Vcc
+Text HLabel 4325 3300 0    50   Input ~ 0
+Rx
+Text HLabel 4325 3400 0    50   Output ~ 0
+Tx
+Wire Wire Line
+	4325 3100 4450 3100
+Wire Wire Line
+	4325 3200 4450 3200
+Wire Wire Line
+	4325 3300 4450 3300
+Wire Wire Line
+	4325 3400 4450 3400
+Text HLabel 6050 3125 0    50   Input ~ 0
+GND
+Text HLabel 6050 3225 0    50   Input ~ 0
+Vcc
+Text HLabel 6050 3325 0    50   BiDi ~ 0
+SDA
+Text HLabel 6050 3425 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	6050 3125 6200 3125
+Wire Wire Line
+	6050 3225 6200 3225
+Wire Wire Line
+	6050 3325 6200 3325
+Wire Wire Line
+	6050 3425 6200 3425
+Text HLabel 4250 4275 0    50   BiDi ~ 0
+D2
+Text HLabel 4250 4375 0    50   BiDi ~ 0
+D3
+Text HLabel 4250 4475 0    50   BiDi ~ 0
+D4
+Text HLabel 4250 4575 0    50   BiDi ~ 0
+D5
+Text HLabel 4250 4675 0    50   BiDi ~ 0
+D6
+Text HLabel 4250 4775 0    50   BiDi ~ 0
+D7
+Text HLabel 4250 4875 0    50   BiDi ~ 0
+D8
+Text HLabel 4250 4975 0    50   Input ~ 0
+GND
+Text HLabel 4250 5075 0    50   Input ~ 0
+Vcc
+Wire Wire Line
+	4250 4275 4425 4275
+Wire Wire Line
+	4250 4375 4425 4375
+Wire Wire Line
+	4250 4475 4425 4475
+Wire Wire Line
+	4250 4575 4425 4575
+Wire Wire Line
+	4250 4675 4425 4675
+Wire Wire Line
+	4250 4775 4425 4775
+Wire Wire Line
+	4250 4875 4425 4875
+Wire Wire Line
+	4250 4975 4425 4975
+Wire Wire Line
+	4250 5075 4425 5075
 $EndSCHEMATC
