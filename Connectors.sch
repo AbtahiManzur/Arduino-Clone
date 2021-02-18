@@ -137,4 +137,12 @@ Wire Wire Line
 	4250 4975 4425 4975
 Wire Wire Line
 	4250 5075 4425 5075
+Text Notes 4300 2825 0    50   ~ 10
+N6 - Serial connector
+Text Notes 6150 2825 0    50   ~ 10
+N5 - I2C connector
+Text Notes 4200 4050 0    50   ~ 10
+N7 - GPIO connector
+Text Notes 6050 4200 0    50   ~ 10
+N8 - SPI connector\n
 $EndSCHEMATC
